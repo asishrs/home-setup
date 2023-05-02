@@ -1,0 +1,33 @@
+aliases:
+    fleeks: cd ~/.local/share/fleek
+bling: none
+ejected: false
+flakedir: .local/share/fleek
+git:
+    autocommit: true
+    autopull: true
+    autopush: true
+    enabled: true
+min_version: 0.8.4
+name: Fleek Configuration
+packages:
+    - helix
+    - vscode
+paths:
+    - $HOME/bin
+    - $HOME/.local/bin
+programs:
+    - dircolors
+shell: zsh
+systems:
+    - arch: aarch64
+      hostname: lightningrod.iot
+      os: darwin
+      username: asishrs
+unfree: true
+users:
+    - email: asishrs@gmail.com
+      name: Asish Soudhamma
+      ssh_private_key_file: ~/.ssh/id_rsa
+      ssh_public_key_file: ~/.ssh/id_rsa.pub
+      username: asishrs
