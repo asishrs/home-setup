@@ -17,6 +17,7 @@ packages:
     - iterm2
     - starship
     - exa
+    - go
 paths:
     - $HOME/bin
     - $HOME/.local/bin
