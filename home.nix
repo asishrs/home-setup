@@ -23,7 +23,6 @@
     pkgs.vscode
     pkgs.iterm2
     pkgs.starship
-    pkgs.nerdfonts
     # Fleek Bling
     pkgs.git
     (pkgs.nerdfonts.override { fonts = [ "FiraCode" ]; })

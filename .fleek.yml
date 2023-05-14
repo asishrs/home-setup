@@ -16,7 +16,6 @@ packages:
     - vscode
     - iterm2
     - starship
-    - nerdfonts
 paths:
     - $HOME/bin
     - $HOME/.local/bin
