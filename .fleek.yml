@@ -19,6 +19,7 @@ packages:
     - exa
     - go
     - vscode-extensions.golang.go
+    - jq
 paths:
     - $HOME/bin
     - $HOME/.local/bin
