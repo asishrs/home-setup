@@ -506,7 +506,7 @@
           disabled = false;
         };
         localip = {
-          disabled = false;
+          disabled = true;
           format = "[@$localipv4]($style) ";
           ssh_only = false;
           style = "yellow bold";
