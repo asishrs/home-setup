@@ -523,7 +523,7 @@
           detect_folders = ["lua"];
         };
         memory_usage = {
-          disabled = false;
+          disabled = true;
           format = "$symbol[$ram( | $swap)]($style) ";
           style = "white bold dimmed";
           symbol = " ";
