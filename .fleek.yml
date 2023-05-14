@@ -20,7 +20,7 @@ paths:
     - $HOME/.local/bin
 programs:
     - dircolors
-shell: zsh
+shell: bash
 systems:
     - arch: aarch64
       hostname: lightningrod.lan
