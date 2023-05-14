@@ -3,7 +3,5 @@
   programs.starship.enable = true;
   programs.starship.enableZshIntegration = true;
 
-  fonts.fonts = with pkgs; [
-    (nerdfonts.override { fonts = [ "FiraCode"]; })
-  ];
+  
 }
