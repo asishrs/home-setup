@@ -6,7 +6,7 @@
       shellAliases = {
         ls = "exa";
         l = "exa -lbF --git";
-        ll = "exa -lbGF --git";
+        ll = "exa -lbF --git --icons";
         llm = "exa -lbGd --git --sort=modified";
         la = "exa -lbhHigUmuSa --time-style=long-iso --git --color-scale";
         lx = "exa -lbhHigUmuSa@ --time-style=long-iso --git --color-scale";
