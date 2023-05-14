@@ -21,6 +21,7 @@
     # user selected packages
     pkgs.helix
     pkgs.vscode
+    pkgs.iterm2
     # Fleek Bling
     pkgs.git
     (pkgs.nerdfonts.override { fonts = [ "FiraCode" ]; })

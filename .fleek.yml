@@ -13,6 +13,7 @@ name: Fleek Configuration
 packages:
     - helix
     - vscode
+    - iterm2
 paths:
     - $HOME/bin
     - $HOME/.local/bin
