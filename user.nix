@@ -15,7 +15,7 @@
         lS = "exa -1";
         lt = "exa --tree --level=2"; 
       };
-    }
+    };
     starship = {
       enable = true;
       enableZshIntegration = true;
