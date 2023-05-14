@@ -25,6 +25,7 @@
     pkgs.starship
     pkgs.exa
     pkgs.go
+    pkgs.vscode-extensions.golang.go
     # Fleek Bling
     pkgs.git
     (pkgs.nerdfonts.override { fonts = [ "FiraCode" ]; })

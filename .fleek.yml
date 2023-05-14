@@ -18,6 +18,7 @@ packages:
     - starship
     - exa
     - go
+    - vscode-extensions.golang.go
 paths:
     - $HOME/bin
     - $HOME/.local/bin
