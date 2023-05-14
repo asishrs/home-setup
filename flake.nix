@@ -20,7 +20,7 @@
     # Available through 'home-manager --flake .#your-username@your-hostname'
     homeConfigurations = {
     
-      "asishrs@lightningrod.iot" = home-manager.lib.homeManagerConfiguration {
+      "asishrs@lightningrod.lan" = home-manager.lib.homeManagerConfiguration {
         pkgs = nixpkgs.legacyPackages.aarch64-darwin; # Home-manager requires 'pkgs' instance
         extraSpecialArgs = { inherit inputs; }; # Pass flake inputs to our config
 
@@ -32,8 +32,8 @@
           ./aliases.nix
           ./programs.nix
           # Host Specific configs
-          ./lightningrod.iot/lightningrod.iot.nix
-          ./lightningrod.iot/user.nix
+          ./lightningrod.lan/lightningrod.lan.nix
+          ./lightningrod.lan/user.nix
           # self-manage fleek
           {
            home.packages = [

@@ -23,7 +23,7 @@ programs:
 shell: zsh
 systems:
     - arch: aarch64
-      hostname: lightningrod.iot
+      hostname: lightningrod.lan
       os: darwin
       username: asishrs
 unfree: true
