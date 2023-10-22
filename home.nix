@@ -28,7 +28,6 @@
     pkgs.go
     pkgs.vscode-extensions.golang.go
     pkgs.jq
-    pkgs.docker
     pkgs.vagrant
     # Fleek Bling
     pkgs.git

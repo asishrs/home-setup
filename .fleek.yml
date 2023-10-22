@@ -24,7 +24,6 @@ packages:
     - go
     - vscode-extensions.golang.go
     - jq
-    - docker
     - vagrant
 paths:
     - $HOME/bin
