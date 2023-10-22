@@ -1,6 +1,10 @@
 aliases:
     fleeks: cd ~/.local/share/fleek
+allow_broken: false
+auto_gc: false
 bling: none
+blocklist: []
+byo_git: false
 ejected: false
 flakedir: .local/share/fleek
 git:
@@ -28,9 +32,17 @@ programs:
 shell: zsh
 systems:
     - arch: aarch64
+      home: ""
       hostname: lightningrod.lan
       os: darwin
+      user:
+        email: asishrs@gmail.com
+        name: Asish Soudhamma
+        ssh_private_key_file: ~/.ssh/id_rsa
+        ssh_public_key_file: ~/.ssh/id_rsa.pub
+        username: asishrs
       username: asishrs
+track: ""
 unfree: true
 users:
     - email: asishrs@gmail.com
