@@ -20,7 +20,7 @@ packages:
     - vscode
     - iterm2
     - starship
-    - exa
+    - eza
     - go
     - vscode-extensions.golang.go
     - jq

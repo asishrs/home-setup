@@ -24,7 +24,7 @@
     pkgs.vscode
     pkgs.iterm2
     pkgs.starship
-    pkgs.exa
+    pkgs.eza
     pkgs.go
     pkgs.vscode-extensions.golang.go
     pkgs.jq
